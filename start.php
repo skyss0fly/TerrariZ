@@ -12,7 +12,8 @@ require_once 'src/TerrariZ/TerrariaProtocol/PasswordVerificationPacket.php';
 require_once 'src/TerrariZ/Utils/Logger.php';
 
 // Terminal:
-require_once 'src/TerrariZ/Terminal/Terminal.php';
+// Still fixing this
+// require_once 'src/TerrariZ/Terminal/Terminal.php';
 
 use TerrariZ\Server;
 
