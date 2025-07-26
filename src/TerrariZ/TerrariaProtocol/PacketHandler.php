@@ -4,7 +4,8 @@ namespace TerrariZ\TerrariaProtocol;
 use TerrariZ\Server;
 use TerrariZ\TerrariaProtocol\PlayerLoginRequestPacket;
 use TerrariZ\TerrariaProtocol\PasswordVerificationPacket;
-
+use TerrariZ\TerrariaProtocol\PlayerCreationPacket;
+use TerrariZ\Utils\Logger;
 use TerrariZ\TerrariaProtocol\PacketInterface;
 
 class PacketHandler
@@ -18,6 +19,7 @@ class PacketHandler
      */
     private const PACKET_MAP = [
         1 => PlayerLoginRequestPacket::class,
+		4 => PlayerCreationPacket::class,
 		38 => PasswordVerificationPacket::class,
         // Add more mappings here
     ];
@@ -32,10 +34,12 @@ class PacketHandler
 	
 	public static function dispatch(int $id, array $data, $clientSocket, Server $server): void
 	{
+		if ($server->isDebugEnabled == true){
 		echo "Raw data received:\n";
 		var_dump($id);
 		var_dump($data);
 		var_dump($clientSocket);
+		}
     $className = self::getHandlerClassFromID($id);
 
     if ($className && class_exists($className)) {
@@ -43,10 +47,10 @@ class PacketHandler
         if ($handler instanceof PacketInterface) {
             $handler->handle($data, $clientSocket, $server);
         } else {
-            error_log("Handler for packet ID $id does not implement PacketInterface.");
+            Logger::log("error","Handler for packet ID $id does not implement PacketInterface.");
         }
     } else {
-        error_log("No handler found for packet ID $id.");
+        Logger::log("error","No handler found for packet ID $id.");
     }
 }
 

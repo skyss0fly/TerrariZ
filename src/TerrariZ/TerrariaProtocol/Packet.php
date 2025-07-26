@@ -1,80 +1,86 @@
 <?php
-
 namespace TerrariZ\TerrariaProtocol;
 
+class Packet
+{
+    /** Raw packet bytes */
+    private string $data;
 
-Class Packet {
+    /** Read cursor */
+    private int $pos = 0;
 
-public static function sendPlayerAppearance($clientSocket, array $appearanceData) {
-    $payload = '';
-
-    $payload .= chr($appearanceData['slot']);                  // Offset 0
-    $payload .= chr($appearanceData['hairStyle']);             // Offset 1
-    $payload .= chr($appearanceData['gender']);                // Offset 2
-    $payload .= self::packColor($appearanceData['hairColor']);         // Offset 3
-    $payload .= self::packColor($appearanceData['skinColor']);         // Offset 6
-    $payload .= self::packColor($appearanceData['eyeColor']);          // Offset 9
-    $payload .= self::packColor($appearanceData['shirtColor']);        // Offset 12
-    $payload .= self::packColor($appearanceData['undershirtColor']);   // Offset 15
-    $payload .= self::packColor($appearanceData['pantsColor']);        // Offset 18
-    $payload .= self::packColor($appearanceData['shoeColor']);         // Offset 21
-    $payload .= chr($appearanceData['difficulty']);            // Offset 24
-    $payload .= self::packString($appearanceData['playerName']);       // Offset 25+
-
-    self::writePacket($clientSocket, 4, $payload);
-	
-	}
-	
-	public static function packColor(array $color): string {
-    return chr($color['r']) . chr($color['g']) . chr($color['b']);
-}
-
-public static function packString(string $str): string {
-    return chr(strlen($str)) . $str;
-}
-
-public static function readPacket($client) {
-    $lengthBytes = fread($client, 2);
-    if (!$lengthBytes) {
-        //DEBUG: echo "No data received from client!\n";
-        return null;
+    public function __construct(string $data)
+    {
+        $this->data = $data;
+        $this->pos  = 0;
     }
 
-    $length = unpack('v', $lengthBytes)[1];
-    $packet = fread($client, $length);
+    public static function readPacket($client): ?array
+    {
+        $lengthBytes = fread($client, 2);
+        if (!$lengthBytes) return null;
 
-    if (!$packet) {
-      //DEBUG:  echo "Packet read failed!\n";
-        return null;
+        $length = unpack('v', $lengthBytes)[1];
+        $packet = fread($client, $length);
+        if (!$packet) return null;
+
+        return [
+            'id'   => ord($packet[0]),
+            'data' => substr($packet, 1),
+        ];
     }
 
-  //DEBUG:   var_dump($packet);
+    public static function writePacket($client, int $packetId, string $payload = ''): void
+    {
+        stream_set_blocking($client, true);
+        $length = strlen($payload) + 3;
+        $packet = pack('v', $length) . chr($packetId) . $payload;
+        fwrite($client, $packet);
+        fflush($client);
+    }
 
-    return [
-        'id' => ord($packet[0]),
-        'data' => substr($packet, 1)
-    ];
+    public function readByte(): int
+    {
+        $length = strlen($this->data);
+        if ($this->pos >= $length) {
+            throw new \Exception(
+                "Packet too short: tried to read offset {$this->pos} of {$length}"
+            );
+        }
+        return ord($this->data[$this->pos++]);
+    }
+
+    public function readInt16(): int
+    {
+        if (strlen($this->data) < $this->pos + 2) {
+            throw new \Exception("Packet too short for 16-bit at {$this->pos}");
+        }
+        $chunk = substr($this->data, $this->pos, 2);
+        $this->pos += 2;
+        return unpack('v', $chunk)[1];
+    }
+
+    public function readInt32(): int
+    {
+        if (strlen($this->data) < $this->pos + 4) {
+            throw new \Exception("Packet too short for 32-bit at {$this->pos}");
+        }
+        $chunk = substr($this->data, $this->pos, 4);
+        $this->pos += 4;
+        return unpack('V', $chunk)[1];
+    }
+
+    public function readString(): string
+    {
+        $length    = $this->readByte();
+        $remaining = strlen($this->data) - $this->pos;
+        if ($remaining < $length) {
+            throw new \Exception(
+                "Incomplete string: need {$length}, have {$remaining}"
+            );
+        }
+        $str = substr($this->data, $this->pos, $length);
+        $this->pos += $length;
+        return $str;
+    }
 }
-     public static function writePacket($client, int $packetId, string $payload = '') {
-	/*	
-		if ($bytesWritten = socket_write($client, $packetId) === false) {
-    echo "Socket write failed: " . socket_strerror(socket_last_error($client)) . PHP_EOL;
-}
-*/
-      stream_set_blocking($client,true);
-      $length = strlen($payload) + 3;
-	  $packet = pack('v',$length) . chr($packetId) . $payload;
-	  fwrite($client, $packet);
-	  echo "packet";
-	  var_dump($packet);
-	  echo "payload";
-	  var_dump($payload);
-	  echo "length";
-	  var_dump($length);
-	  fflush($client); 
-} 
-
-}
-
-
-?>
