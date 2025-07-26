@@ -20,6 +20,6 @@ TerrariZ is a server software written in php (IN Development)
 
 - Rewrite Main Server Thread to support Asynchronous Threads to support tasks like Garbage Collection, Console Threads and Multiple tasks at once.
 - Complete Rest of Initial Server and Client Handshake
-- Write a world generation system similar to that of (https://github.com/Pryaxis/Tshock)[TShock]
+- Write a world generation system similar to that of [TShock](https://github.com/Pryaxis/Tshock)
 - Write a world reading system to Load the correct world information to the client.
 
