@@ -13,7 +13,7 @@ TerrariZ is a server software written in php (IN Development)
 # The following Packets have been Partially Implemented:
 > # 38 (Client Password Packet)
 > This packet checks the Validity of the Password (in Config.yml), if it matches up, it will send Packet id 3 to the Client, if not, it will send the Packet id 2 (Disconnect Packet) to the client.
-> this Packet is not fully complete as it does not send the write formatting for the kick message as the client will recieve the text "valid Password***************"
+> this Packet is not fully complete as it does not send the correct formatting for the kick message as the client will recieve the text "valid Password***************"
 
 
 # Todo:
