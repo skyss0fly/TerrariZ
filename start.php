@@ -19,7 +19,7 @@ require_once 'src/TerrariZ/Player/Player.php';
 
 
 // Terminal:
-require_once 'src/TerrariZ/Terminal/Terminal.php';
+// require_once 'src/TerrariZ/Terminal/Terminal.php';
 
 use TerrariZ\Server;
 
