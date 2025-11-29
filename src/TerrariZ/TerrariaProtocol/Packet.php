@@ -14,6 +14,10 @@ class Packet
         $this->data = $data;
         $this->pos  = 0;
     }
+public function getPos(): int
+{
+    return $this->pos;
+}
 
     public static function readPacket($client): ?array
     {
@@ -83,4 +87,16 @@ class Packet
         $this->pos += $length;
         return $str;
     }
+    public function newreadInt16(): int
+{
+    if (strlen($this->data) < $this->pos + 2) {
+        throw new \Exception("Packet too short for 16-bit at {$this->pos}");
+    }
+    $chunk = substr($this->data, $this->pos, 2);
+    $this->pos += 2;
+    // 'v' is little-endian unsigned short
+    return unpack('v', $chunk)[1];
 }
+
+}
+

@@ -18,11 +18,14 @@ class PacketHandler
 	 * This Class will be regularly updated, so you are not shielded from api constraint changes!
      */
     private const PACKET_MAP = [
-        1 => PlayerLoginRequestPacket::class,
-		4 => PlayerCreationPacket::class,
-		38 => PasswordVerificationPacket::class,
-        // Add more mappings here
-    ];
+    1  => PlayerLoginRequestPacket::class,
+    4  => PlayerCreationPacket::class,
+    16 => PlayerInventoryPacket::class, 
+    38 => PasswordVerificationPacket::class,
+    42 => PlayerManaPacket::class,
+    68 => SyncUUIDPacket::class,
+];
+
 
     /**
      * Returns the class name that handles the given packet ID.

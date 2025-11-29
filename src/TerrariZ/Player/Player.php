@@ -26,7 +26,9 @@ class Player
     public int    $difficultyFlag;
     public int    $flags2;
     public int    $flags3;
-	
+	private string $uuid = '';
+    private int $currentMana = 0;
+private int $maxMana = 20;
 public function __construct(
 
     int $uid,
@@ -68,7 +70,13 @@ public function __construct(
 	$this->flags3 = $flags3;
 	
 }
+public function setUUID(string $uuid): void {
+    $this->uuid = $uuid;
+}
 
+public function getUUID(): string {
+    return $this->uuid;
+}
 public static function fromPacketData(array $data): Player {
     return new Player(
         $data['uid'],
@@ -91,8 +99,12 @@ public static function fromPacketData(array $data): Player {
         $data['flags3']
     );
 }
-public function getUID():bool {
-	return $this->uid;
+
+public function setCurrentMana(int $mana): void { $this->currentMana = $mana; }
+public function setMaxMana(int $mana): void { $this->maxMana = $mana; }
+
+public function getUID(): int {
+    return $this->uid;
 }
 public function getUsername(): string
     {
@@ -111,6 +123,11 @@ public function getUsername(): string
  public function setId(int $id): void
     {
         $this->id = $id;
+    }
+
+    public function getId(): ?int
+    {
+        return $this->id;
     }
 
 }

@@ -138,7 +138,7 @@ public function addPlayer($clientSocket, Player $player): void
 	}
 	Logger::log(
 	"info",
-"Player #{$player->getUsername()} joined the Server!");
+"{$player->getUsername()} joined the Server!");
 }
 
 // Helper to pick the next available integer ID
@@ -151,5 +151,14 @@ private function getNextServerUid(): int
     return max(array_map(fn(Player $p) => $p->getId(), $this->players)) + 1;
 }
 
+public function getPlayers(): array
+{
+    return $this->players;
+}   
 
+public function getPlayerBySocket($clientSocket): ?Player
+{
+    $sockId = (int)$clientSocket;
+    return $this->players[$sockId] ?? null; 
+}
 }
