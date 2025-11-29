@@ -9,7 +9,7 @@ the following Packets Have Been Implemented:
 ```
     1  => PlayerLoginRequestPacket::class,
     4  => PlayerCreationPacket::class,
-    16 => PlayerInventoryPacket::class, (still Testing)
+    5 => PlayerInventorySlotPacket::class,
     38 => PasswordVerificationPacket::class, (still Fixing Some Bugs)
     42 => PlayerManaPacket::class, (still testing)
     68 => SyncUUIDPacket::class,
