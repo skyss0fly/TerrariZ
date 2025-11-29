@@ -5,7 +5,15 @@ TerrariZ is a server software written in php (IN Development)
 # Current Features:
 - Logger Class,
 - Packet Handler, Packet Interface Classes.
-
+the following Packets Have Been Implemented:
+```
+    1  => PlayerLoginRequestPacket::class,
+    4  => PlayerCreationPacket::class,
+    16 => PlayerInventoryPacket::class, (still Testing)
+    38 => PasswordVerificationPacket::class, (still Fixing Some Bugs)
+    42 => PlayerManaPacket::class, (still testing)
+    68 => SyncUUIDPacket::class,
+```
 # The following Packets Have been Fully Implemented:
 > # 1 (Client Join Request)
 > this Packet checks if the server has a password enabled (in Config.yml), if true, then it will send the Packet 37 to the client. if false, it will send 3 to client.
