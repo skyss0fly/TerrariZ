@@ -1,0 +1,790 @@
+[2025-11-29 20:50:20] [info]  Terraria Server Online at 0.0.0.0:7777
+
+[2025-11-29 20:50:20] [info] Password rejected
+
+[2025-11-29 20:50:20] [info] Client disconnected or sent nothing
+
+[2025-11-29 20:50:28] [info] Password accepted
+
+[2025-11-29 20:50:28] [debug] Parsed username: skyss0fly
+[2025-11-29 20:50:28] [info] skyss0fly joined the Server!
+[2025-11-29 20:50:28] [info] skyss0fly joined the Server!
+[2025-11-29 20:50:28] [debug] UUID received: 18f741f9-9024-4bf4-9379-c9d6b6be23fe
+[2025-11-29 20:50:28] [debug] UUID assigned to player 1 (skyss0fly)
+[2025-11-29 20:50:28] [error] No handler found for packet ID 16.
+[2025-11-29 20:50:28] [error] No handler found for packet ID 42.
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 0 => NetID: 45824, Stack: 256, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 1 => NetID: 46372, Stack: 256, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 3 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 6 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 8 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 9 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 10 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 11 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 19 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 21 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 22 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 24 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 25 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 26 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 27 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 29 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 30 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 33 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 34 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 35 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 36 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 37 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 39 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 41 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 42 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 44 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 46 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 48 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 49 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 50 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 52 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 54 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 55 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 57 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 58 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 60 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 64 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 66 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 68 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 69 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 70 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 71 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 73 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 75 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 76 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 77 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 78 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 86 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 87 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 88 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 91 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 92 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 93 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 95 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 98 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 100 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 101 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 103 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 104 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 106 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 107 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 108 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 109 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 110 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 112 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 114 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 116 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 118 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 119 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 120 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 121 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 122 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 123 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 124 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 125 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 127 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 129 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 130 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 131 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 132 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 133 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 135 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 136 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 138 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 139 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 142 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 143 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 144 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 146 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 147 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 149 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 150 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 151 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 153 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 154 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 155 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 156 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 157 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 158 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 159 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 162 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 165 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 167 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 170 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 172 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 174 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 180 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 181 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 182 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 183 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 184 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 185 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 187 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 192 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 193 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 204 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 206 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 208 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 209 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 210 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 211 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 212 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 213 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 214 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 215 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 216 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 217 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 219 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 220 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 221 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 222 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 223 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 224 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 226 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 227 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 228 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 229 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 230 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 231 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 232 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 233 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 234 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 236 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 237 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 238 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 241 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 244 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 246 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 247 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 248 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 249 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 251 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 253 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 255 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 1 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 5 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 6 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 7 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 9 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 11 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 12 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 13 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 15 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 16 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 17 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 20 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 22 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 23 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 25 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 27 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 29 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 31 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 32 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 35 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 37 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 40 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 41 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 43 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 45 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 48 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 50 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 52 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 54 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 55 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 57 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 59 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 60 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 61 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 67 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 68 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 70 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 72 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 73 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 74 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 76 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 77 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 79 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 80 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 81 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 82 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 83 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 84 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 86 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 88 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 90 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 92 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:50:28] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 20:50:28] [debug] Player skyss0fly slot 93 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 20:51:28] [info] Client disconnected or sent nothing
+
+[2025-11-29 21:13:51] [info]  Terraria Server Online at 0.0.0.0:7777
+
+[2025-11-29 21:16:54] [info]  Terraria Server Online at 0.0.0.0:7777
+
+[2025-11-29 21:17:49] [info] Password accepted
+
+[2025-11-29 21:17:49] [debug] Parsed username: skyss0fly
+[2025-11-29 21:17:49] [info] skyss0fly joined the Server!
+[2025-11-29 21:17:49] [info] skyss0fly joined the Server!
+[2025-11-29 21:17:49] [debug] UUID received: 18f741f9-9024-4bf4-9379-c9d6b6be23fe
+[2025-11-29 21:17:49] [debug] UUID assigned to player 1 (skyss0fly)
+[2025-11-29 21:17:49] [error] No handler found for packet ID 16.
+[2025-11-29 21:17:49] [error] No handler found for packet ID 42.
+[2025-11-29 21:17:49] [error] No handler found for packet ID 50.
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 0 => NetID: 45824, Stack: 256, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 1 => NetID: 46372, Stack: 256, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 2 => NetID: 45568, Stack: 256, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 3 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 4 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 5 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 6 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 7 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 8 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 9 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 10 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 11 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 12 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 14 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 16 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 17 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 18 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 19 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 20 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 21 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 22 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 23 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 24 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 26 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 28 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 30 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 32 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 33 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 36 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 39 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 41 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 44 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 46 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 48 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 50 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 52 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 55 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 57 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 59 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 61 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 63 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 65 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 67 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 70 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 72 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 74 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 76 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 78 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 80 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 82 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 84 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 86 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 89 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 91 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 93 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 95 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 97 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 99 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 101 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 103 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 105 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 107 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 109 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 111 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 113 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 115 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 117 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 119 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 121 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 123 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 124 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 125 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 135 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 140 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 143 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 145 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 146 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 147 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 148 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 149 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 152 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 154 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 155 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 156 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 167 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 170 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 172 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 173 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 175 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 178 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 180 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 182 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 183 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 185 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 187 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 189 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 191 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 193 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 195 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 197 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 199 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 201 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 203 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 205 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 207 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 210 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 212 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 213 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 216 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 218 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 220 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 222 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 223 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 225 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 227 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 229 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 230 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 231 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 234 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 237 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 239 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 241 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 244 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 245 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 248 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 250 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 253 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 254 => NetID: 0, Stack: 0, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 1 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 4 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 6 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 8 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 10 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 12 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 14 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 16 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 18 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 20 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 25 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 27 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 29 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 31 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 33 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 35 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 37 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 39 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 41 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 43 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 46 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 48 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 50 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 52 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 54 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 55 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 57 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 59 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 61 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 64 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 66 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 68 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 71 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 74 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 76 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 78 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 80 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 82 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 84 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 86 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 88 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 90 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [debug] Parsing inventory slot update for player skyss0fly
+[2025-11-29 21:17:49] [debug] Player skyss0fly slot 92 => NetID: 0, Stack: 1, Prefix: 0
+[2025-11-29 21:17:49] [error] No handler found for packet ID 6.
+[2025-11-29 21:17:56] [info] Client disconnected or sent nothing
+

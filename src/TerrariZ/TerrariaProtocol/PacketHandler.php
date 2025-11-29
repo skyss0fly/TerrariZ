@@ -20,7 +20,7 @@ class PacketHandler
     private const PACKET_MAP = [
     1  => PlayerLoginRequestPacket::class,
     4  => PlayerCreationPacket::class,
-    16 => PlayerInventoryPacket::class, 
+    5 => PlayerInventorySlotPacket::class, 
     38 => PasswordVerificationPacket::class,
     42 => PlayerManaPacket::class,
     68 => SyncUUIDPacket::class,

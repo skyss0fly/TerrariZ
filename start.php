@@ -9,7 +9,7 @@ require_once 'src/TerrariZ/TerrariaProtocol/PlayerLoginRequestPacket.php';
 require_once 'src/TerrariZ/TerrariaProtocol/PasswordVerificationPacket.php';
 require_once 'src/TerrariZ/TerrariaProtocol/PlayerCreationPacket.php';
 require_once 'src/TerrariZ/TerrariaProtocol/SyncUUIDPacket.php';
-require_once 'src/TerrariZ/TerrariaProtocol/PlayerInventoryPacket.php';
+require_once 'src/TerrariZ/TerrariaProtocol/PlayerInventorySlotPacket.php';
 
 // Utils:
 require_once 'src/TerrariZ/Utils/Logger.php';

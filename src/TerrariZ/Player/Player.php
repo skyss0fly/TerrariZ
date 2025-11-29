@@ -27,7 +27,14 @@ class Player
     public int    $flags2;
     public int    $flags3;
 	private string $uuid = '';
+    private int $socket;
     private int $currentMana = 0;
+    
+     /** @var array<int, array{netId:int,stack:int,prefix:int}> */
+    private array $inventory = [];
+
+    
+
 private int $maxMana = 20;
 public function __construct(
 
@@ -49,6 +56,7 @@ public function __construct(
     int $difficultyFlag,
     int $flags2,
     int $flags3
+
 ) {
 	$this->uid = $uid;
 	$this->username = $username;
@@ -129,5 +137,18 @@ public function getUsername(): string
     {
         return $this->id;
     }
+// Inventory accessors
+    public function setInventorySlot(int $slotId, int $netId, int $stack, int $prefix): void
+    {
+        $this->inventory[$slotId] = [
+            'netId'  => $netId,
+            'stack'  => $stack,
+            'prefix' => $prefix,
+        ];
+    }
 
+    public function getInventory(): array
+    {
+        return $this->inventory;
+    }
 }
