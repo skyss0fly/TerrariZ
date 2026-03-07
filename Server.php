@@ -3,27 +3,33 @@ namespace TerrariZ;
 
 use TerrariZ\TerrariaProtocol\PacketHandler;
 use TerrariZ\Utils\Logger;
+use TerrariZ\Utils\CrashHandler;
 use TerrariZ\Player\Player;
 use TerrariZ\World\World;
 use TerrariZ\World\Generator;
 use TerrariZ\World\WorldFile;
+use TerrariZ\Thread\ThreadManager;
 
 class Server
 {
     private string $host;
     private int $port;
     private $serverSocket;
+
     private World $world;
-	public bool $isPasswordEnabled = false;
-	public bool $isDebugEnabled = false;
+    private ThreadManager $threadManager;
+
+    public bool $isPasswordEnabled = false;
+    public bool $isDebugEnabled = false;
     public string $serverPassword = '';
 
-    
-	
-/** @var Player[] keyed by socketId */
-private array $players = [];
+    /** @var resource[] */
+    private array $clientSockets = [];
 
+    /** @var Player[] keyed by socketId */
+    private array $players = [];
 
+    private bool $running = true;
 
     public function __construct(string $host = '0.0.0.0', int $port = 7777)
     {
@@ -33,13 +39,12 @@ private array $players = [];
         $configPath = __DIR__ . '/Resources/Config.yml';
         if (file_exists($configPath)) {
             $config = $this->parseSimpleYaml($configPath);
-			$this->isDebugEnabled = isset($config['DebugEnabled']) && strtolower($config['DebugEnabled']) === 'true';
+            $this->isDebugEnabled = isset($config['DebugEnabled']) && strtolower($config['DebugEnabled']) === 'true';
             $this->isPasswordEnabled = isset($config['IsPasswordEnabled']) && strtolower($config['IsPasswordEnabled']) === 'true';
             $this->serverPassword = $config['Password'] ?? '';
         } else {
-            Logger::log("warning","Config.yml not found at $configPath\n");
+            Logger::log("warning","Config.yml not found at $configPath");
         }
-
     }
 
     private function parseSimpleYaml(string $path): array
@@ -53,54 +58,94 @@ private array $players = [];
                 $config[trim($key)] = trim($value, " \t\n\r\"'");
             }
         }
-
         return $config;
     }
 
     public function start(): void
-{
-\TerrariZ\Utils\CrashHandler::register();
-    $this->serverSocket = stream_socket_server("tcp://{$this->host}:{$this->port}", $errno, $errstr);
+    {
+        CrashHandler::register();
 
-    if (!$this->serverSocket) {
-        die("Failed to start server: $errstr ($errno)\n");
-    }
-
-    Logger::log("info"," Terraria Server Online at {$this->host}:{$this->port}");
-
-    if ($this->isDebugEnabled) {
-        Logger::log(
-            "debug",
-            "This Server is Running in Debug Mode. To Disable Debug Mode,\n Go to Config.yml and set 'DebugEnabled' to false."
+        $this->serverSocket = stream_socket_server(
+            "tcp://{$this->host}:{$this->port}",
+            $errno,
+            $errstr
         );
-    }
 
-    // Load or generate world
-    if (file_exists("world.wld")) {
-        $this->world = WorldFile::load("world.wld");
-    } else {
-        $this->world = new World(4200,1200,"TerrariZ World");
-        Generator::generate($this->world);
-        WorldFile::save($this->world,"world.wld");
-    }
-
-    while (true) {
-        $clientSocket = @stream_socket_accept($this->serverSocket, 5);
-
-        if ($clientSocket === false) {
-            continue;
+        if (!$this->serverSocket) {
+            die("Failed to start server: $errstr ($errno)\n");
         }
 
-        Logger::log("info", "New Client Joining");
+        stream_set_blocking($this->serverSocket, false);
 
-        while (!feof($clientSocket)) {
+        Logger::log("info", "Terraria Server Online at {$this->host}:{$this->port}");
 
-            // 🔥 Correct Terraria packet read (handles TCP fragmentation)
-            $packet = \TerrariZ\TerrariaProtocol\Packet::readPacket($clientSocket);
+        if ($this->isDebugEnabled) {
+            Logger::log(
+                "debug",
+                "Debug Mode Enabled (Config.yml → DebugEnabled)"
+            );
+        }
+
+        // Thread manager
+        $this->threadManager = new ThreadManager(2);
+
+        // Load or generate world
+        if (file_exists("world.wld")) {
+            $this->world = WorldFile::load("world.wld");
+        } else {
+            $this->world = new World(4200,1200,"TerrariZ World");
+            Generator::generate($this->world);
+            WorldFile::save($this->world,"world.wld");
+        }
+
+        // Main server loop
+        while ($this->running) {
+            $this->acceptClients();
+            $this->tickClients();
+            $this->threadManager->tick();
+
+            // Small sleep to prevent 100% CPU spin
+            usleep(1000);
+        }
+    }
+
+    private function acceptClients(): void
+{
+    $read = [$this->serverSocket];
+    $write = null;
+    $except = null;
+
+    // non-blocking poll
+    if (@stream_select($read, $write, $except, 0, 0) === 0) {
+        return; // no pending connections
+    }
+
+    $client = @stream_socket_accept($this->serverSocket, 0);
+    if ($client === false) {
+        return;
+    }
+
+    stream_set_blocking($client, false);
+
+    $sockId = (int)$client;
+    $this->clientSockets[$sockId] = $client;
+
+    Logger::log("info", "New Client Joining (socket $sockId)");
+}
+
+    private function tickClients(): void
+    {
+        foreach ($this->clientSockets as $sockId => $socket) {
+
+            if (feof($socket)) {
+                $this->disconnectClient($sockId);
+                continue;
+            }
+
+            $packet = \TerrariZ\TerrariaProtocol\Packet::readPacket($socket);
 
             if ($packet === null) {
-                Logger::log("info","Client disconnected or sent nothing");
-                break;
+                continue;
             }
 
             $packetId = $packet['id'];
@@ -108,7 +153,6 @@ private array $players = [];
 
             if ($this->isDebugEnabled) {
                 Logger::log("debug","Parsed packet ID: $packetId");
-                Logger::log("debug","Payload bytes: " . bin2hex($payload));
             }
 
             PacketHandler::dispatch(
@@ -117,80 +161,104 @@ private array $players = [];
                     'id'   => $packetId,
                     'data' => $payload
                 ],
-                $clientSocket,
+                $socket,
                 $this
             );
         }
-
-        fclose($clientSocket);
     }
-}
-    
-public function addPlayer($clientSocket, Player $player): void
-{
-    $sockId = (int)$clientSocket;
 
-    // If player already exists for this socket, keep their ID
-    if (isset($this->players[$sockId])) {
-        $existing = $this->players[$sockId];
+    private function disconnectClient(int $sockId): void
+    {
+        if (!isset($this->clientSockets[$sockId])) {
+            return;
+        }
 
-        $player->setId($existing->getId());
+        $socket = $this->clientSockets[$sockId];
+
+        Logger::log("info", "Client disconnected (socket $sockId)");
+
+        fclose($socket);
+        unset($this->clientSockets[$sockId]);
+
+        $this->removePlayerBySocketId($sockId);
+    }
+
+    // ---------- Player management ----------
+
+    public function addPlayer($clientSocket, Player $player): void
+    {
+        $sockId = (int)$clientSocket;
+
+        if (isset($this->players[$sockId])) {
+            $existing = $this->players[$sockId];
+
+            $player->setId($existing->getId());
+            $player->setSocketId($sockId);
+
+            $this->players[$sockId] = $player;
+            return;
+        }
+
+        $newUid = $this->getNextServerUid();
+
+        $player->setId($newUid);
         $player->setSocketId($sockId);
 
         $this->players[$sockId] = $player;
-        return;
+
+        if ($this->isDebugEnabled) {
+            Logger::log(
+                "debug",
+                "Player #{$newUid} ({$player->getUsername()}) joined on socket {$sockId}"
+            );
+        }
     }
 
-    // New player
-    $newUid = $this->getNextServerUid();
+    public function getPlayers(): array
+    {
+        return array_values($this->players);
+    }
 
-    $player->setId($newUid);
-    $player->setSocketId($sockId);
+    public function getPlayerBySocket($clientSocket): ?Player
+    {
+        return $this->players[(int)$clientSocket] ?? null;
+    }
 
-    $this->players[$sockId] = $player;
+    private function removePlayerBySocketId(int $sockId): void
+    {
+        unset($this->players[$sockId]);
+    }
 
-    if ($this->isDebugEnabled) {
-        Logger::log(
-            "debug",
-            "Player #{$newUid} ({$player->getUsername()}) joined on socket {$sockId}"
+    // ---------- World ----------
+
+    public function getWorld(): World
+    {
+        return $this->world;
+    }
+
+    public function getClientStream(Player $player)
+    {
+        return $player->getSocket();
+    }
+
+    private function getNextServerUid(): int
+    {
+        if (empty($this->players)) {
+            return 1;
+        }
+
+        $ids = array_map(
+            fn(Player $p) => $p->getId() ?? 0,
+            $this->players
         );
-    }
-}
 
-public function getPlayers(): array
-{
-    return array_values($this->players);
-}
-
-public function getPlayerBySocket($clientSocket): ?Player
-{
-    return $this->players[(int)$clientSocket] ?? null;
-}
-
-public function removePlayerBySocket($clientSocket): void
-{
-    unset($this->players[(int)$clientSocket]);
-}
-public function getWorld(): World
-{
-    return $this->world;
-}
-
-public function getClientStream($player)
-{
-    return $player->getSocket();
-}
-private function getNextServerUid(): int
-{
-    if (empty($this->players)) {
-        return 1;
+        return max($ids) + 1;
     }
 
-    $ids = array_map(
-        fn(Player $p) => $p->getId() ?? 0,
-        $this->players
-    );
+    // ---------- Threads ----------
 
-    return max($ids) + 1;
-}
+    public function getThreadManager(): ThreadManager
+    {
+        return $this->threadManager;
+    }
 }
